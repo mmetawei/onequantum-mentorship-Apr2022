@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/battleship_board/__init__.py
+src/battleship_board/battelship.py
+src/example_package_mmetawei.egg-info/PKG-INFO
+src/example_package_mmetawei.egg-info/SOURCES.txt
+src/example_package_mmetawei.egg-info/dependency_links.txt
+src/example_package_mmetawei.egg-info/top_level.txt

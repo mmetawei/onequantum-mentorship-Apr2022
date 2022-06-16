@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: example-package-mmetawei
+Version: 0.0.1
+Summary: A small battleship board game example
+Home-page: https://github.com/mmetawei/onequantum-mentorship-Apr2022
+Author: Maha Metawei
+Author-email: maha.abdelaziz@gmail.com
+Project-URL: Bug Tracker, https://github.com/mmetawei/onequantum-mentorship-Apr2022/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+#Battleship Board Game <br>
+This package will count the number of battleships on the board, no adjacent battleships are allowed.
