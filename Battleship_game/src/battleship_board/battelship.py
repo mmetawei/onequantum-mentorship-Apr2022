@@ -10,3 +10,10 @@ class Solution:
                     counts += 1
         return counts
                         
+    def shoot(x: int, y: int):
+        if (board[x][y] == "X"):
+            print("It is a hit!")
+        else:
+            print("It is a miss. Try Again!")
+            
+            
