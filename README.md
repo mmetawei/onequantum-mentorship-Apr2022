@@ -15,4 +15,4 @@ The QNLP model failed to converge as the loss values accidently evaluated to nan
 3- np.log was another suspicious source of NAN values if the argument value was too small, so I defined an epsilon variable that holds a very small float value and added it to the log argument. I learned this trick from the hackathon mentors. <br>
 4- The last defense against NAN values was to use the np.nansum instead of the regular np.sum so that any remaining nan values would be added as zero. (This was an effective solution). But it might be destructive if it covers up other bugs. I would love to know your thoughts about that. <br>
 The model training is now ending smoothly with no NAN values.
-The next step is to fine-tune the model performance as the current accuracy is 84%. I would be satisfied if we crossed the 90% accuracy mark.
+The next step is to fine-tune the model performance as the current accuracy is 85%. I would be satisfied if we crossed the 90% accuracy mark.
