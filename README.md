@@ -8,7 +8,7 @@ https://packaging.python.org/en/latest/tutorials/packaging-projects/ <br>
 https://docs.python.org/3/distutils/configfile.html
 # The Closure Project
 As I didn't have the chance to complete all the assigned tasks of the QNLP challenge at the Womanium 2022 Hackathon https://github.com/womanium-quantum/Quantum-Natural-Language-Processing-with-lambeq---Quantinuum, we decided to work on our solution to fix it. By applying the python testing tools I've learnt from Tom during the program, I was able to debug and fix my solution as follows: <br>
-The QNLP model failed to converge as the loss values accidently evaluated to nan, then the parameters were not updated and the model return rubbish values <br>
+The QNLP model failed to converge as the loss values accidently evaluated to nan, then the parameters were not updated and the model returned rubbish values <br>
  After some investigations into the cause of the NAN values, I was working on solving the following issues: <br>
 1- Pandas' data frames sometimes have NAN values for empty fields, I have used the following code to drop them if there are any: <br> df.dropna() <br>
 2-The loss evaluation function has a division that might lead to NAN if the denominator evaluates to zero. The denominator was the size of the dataset, so I inserted an assert expression to make sure that the dataset is always non-empty. <br>
