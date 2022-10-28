@@ -1,5 +1,5 @@
 # onequantum-mentorship-Apr2022
-This repository would include the coding tasks assigned by my mentor, Thomas Skripka. <br>
+This repository would include the coding tasks assigned by my mentor, Thomas Skripka from Quantinuum. <br>
 # The Battleship boardGame in Python
 I got this problem in a failed Google Technical interview, I decided with Tom to tackle this problem again and make it as workable as possible. 
 # Creating a python package
